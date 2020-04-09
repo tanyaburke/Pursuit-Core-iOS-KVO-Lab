@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4430CE243F263B00E3488C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4430CD243F263B00E3488C /* CreateViewController.swift */; };
 		2EE3E300243F15FE001F5EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E2FF243F15FE001F5EC7 /* AppDelegate.swift */; };
 		2EE3E302243F15FE001F5EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E301243F15FE001F5EC7 /* SceneDelegate.swift */; };
-		2EE3E304243F15FE001F5EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E303243F15FE001F5EC7 /* ViewController.swift */; };
+		2EE3E304243F15FE001F5EC7 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E303243F15FE001F5EC7 /* CreateUserViewController.swift */; };
 		2EE3E307243F15FE001F5EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE3E305243F15FE001F5EC7 /* Main.storyboard */; };
 		2EE3E30A243F15FE001F5EC7 /* KVO_Lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E308243F15FE001F5EC7 /* KVO_Lab.xcdatamodeld */; };
 		2EE3E30C243F15FF001F5EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE3E30B243F15FF001F5EC7 /* Assets.xcassets */; };
 		2EE3E30F243F15FF001F5EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE3E30D243F15FF001F5EC7 /* LaunchScreen.storyboard */; };
+		2EE3E317243F182E001F5EC7 /* DepositWithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E316243F182E001F5EC7 /* DepositWithdrawViewController.swift */; };
+		2EE3E319243F1857001F5EC7 /* UsersAccountBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3E318243F1857001F5EC7 /* UsersAccountBalanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E4430CD243F263B00E3488C /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		2EE3E2FC243F15FE001F5EC7 /* KVO-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVO-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE3E2FF243F15FE001F5EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EE3E301243F15FE001F5EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EE3E303243F15FE001F5EC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EE3E303243F15FE001F5EC7 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
 		2EE3E306243F15FE001F5EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EE3E309243F15FE001F5EC7 /* KVO_Lab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KVO_Lab.xcdatamodel; sourceTree = "<group>"; };
 		2EE3E30B243F15FF001F5EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EE3E30E243F15FF001F5EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EE3E310243F15FF001F5EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE3E316243F182E001F5EC7 /* DepositWithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositWithdrawViewController.swift; sourceTree = "<group>"; };
+		2EE3E318243F1857001F5EC7 /* UsersAccountBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAccountBalanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			children = (
 				2EE3E2FF243F15FE001F5EC7 /* AppDelegate.swift */,
 				2EE3E301243F15FE001F5EC7 /* SceneDelegate.swift */,
-				2EE3E303243F15FE001F5EC7 /* ViewController.swift */,
+				2EE3E303243F15FE001F5EC7 /* CreateUserViewController.swift */,
+				2E4430CD243F263B00E3488C /* CreateViewController.swift */,
+				2EE3E316243F182E001F5EC7 /* DepositWithdrawViewController.swift */,
+				2EE3E318243F1857001F5EC7 /* UsersAccountBalanceViewController.swift */,
 				2EE3E305243F15FE001F5EC7 /* Main.storyboard */,
 				2EE3E30B243F15FF001F5EC7 /* Assets.xcassets */,
 				2EE3E30D243F15FF001F5EC7 /* LaunchScreen.storyboard */,
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EE3E304243F15FE001F5EC7 /* ViewController.swift in Sources */,
+				2EE3E304243F15FE001F5EC7 /* CreateUserViewController.swift in Sources */,
 				2EE3E300243F15FE001F5EC7 /* AppDelegate.swift in Sources */,
+				2E4430CE243F263B00E3488C /* CreateViewController.swift in Sources */,
+				2EE3E319243F1857001F5EC7 /* UsersAccountBalanceViewController.swift in Sources */,
 				2EE3E30A243F15FE001F5EC7 /* KVO_Lab.xcdatamodeld in Sources */,
 				2EE3E302243F15FE001F5EC7 /* SceneDelegate.swift in Sources */,
+				2EE3E317243F182E001F5EC7 /* DepositWithdrawViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
